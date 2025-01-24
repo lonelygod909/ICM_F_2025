@@ -1,0 +1,2515 @@
+Column,DataType
+action.environmental.notes,object
+action.environmental.variety.Deterioration,bool
+action.environmental.variety.Earthquake,bool
+action.environmental.variety.EMI,bool
+action.environmental.variety.ESD,bool
+action.environmental.variety.Fire,bool
+action.environmental.variety.Flood,bool
+action.environmental.variety.Hazmat,bool
+action.environmental.variety.Humidity,bool
+action.environmental.variety.Hurricane,bool
+action.environmental.variety.Ice,bool
+action.environmental.variety.Landslide,bool
+action.environmental.variety.Leak,bool
+action.environmental.variety.Lightning,bool
+action.environmental.variety.Meteorite,bool
+action.environmental.variety.Other,bool
+action.environmental.variety.Particulates,bool
+action.environmental.variety.Pathogen,bool
+action.environmental.variety.Power failure,bool
+action.environmental.variety.Temperature,bool
+action.environmental.variety.Tornado,bool
+action.environmental.variety.Tsunami,bool
+action.environmental.variety.Unknown,bool
+action.environmental.variety.Vermin,bool
+action.environmental.variety.Volcano,bool
+action.environmental.variety.Wind,bool
+action.error.notes,object
+action.error.variety.Capacity shortage,bool
+action.error.variety.Classification error,bool
+action.error.variety.Data entry error,bool
+action.error.variety.Disposal error,bool
+action.error.variety.Gaffe,bool
+action.error.variety.Loss,bool
+action.error.variety.Maintenance error,bool
+action.error.variety.Malfunction,bool
+action.error.variety.Misconfiguration,bool
+action.error.variety.Misdelivery,bool
+action.error.variety.Misinformation,bool
+action.error.variety.Other,bool
+action.error.variety.Physical accidents,bool
+action.error.variety.Programming error,bool
+action.error.variety.Publishing error,bool
+action.error.variety.Unknown,bool
+action.error.vector.Carelessness,bool
+action.error.vector.Inadequate personnel,bool
+action.error.vector.Inadequate processes,bool
+action.error.vector.Inadequate technology,bool
+action.error.vector.Other,bool
+action.error.vector.Random error,bool
+action.error.vector.Unknown,bool
+action.error.vector.Web application,bool
+action.hacking.cve,object
+action.hacking.notes,object
+action.hacking.result.Deploy payload,bool
+action.hacking.result.Elevate,bool
+action.hacking.result.Exfiltrate,bool
+action.hacking.result.Infiltrate,bool
+action.hacking.result.Lateral movement,bool
+action.hacking.result.NA,bool
+action.hacking.result.Other,bool
+action.hacking.result.Persist,bool
+action.hacking.result.Unknown,bool
+action.hacking.variety.Abuse of functionality,bool
+action.hacking.variety.AitM,bool
+action.hacking.variety.Backdoor,bool
+action.hacking.variety.Brute force,bool
+action.hacking.variety.Buffer overflow,bool
+action.hacking.variety.Cache poisoning,bool
+action.hacking.variety.Cryptanalysis,bool
+action.hacking.variety.CSRF,bool
+action.hacking.variety.Disable controls,bool
+action.hacking.variety.DoS,bool
+action.hacking.variety.Evade Defenses,bool
+action.hacking.variety.Exploit misconfig,bool
+action.hacking.variety.Exploit vuln,bool
+action.hacking.variety.Forced browsing,bool
+action.hacking.variety.Format string attack,bool
+action.hacking.variety.Fuzz testing,bool
+action.hacking.variety.Hijack,bool
+action.hacking.variety.HTTP request smuggling,bool
+action.hacking.variety.HTTP request splitting,bool
+action.hacking.variety.HTTP response smuggling,bool
+action.hacking.variety.HTTP response splitting,bool
+action.hacking.variety.Insecure deserialization,bool
+action.hacking.variety.Integer overflows,bool
+action.hacking.variety.LDAP injection,bool
+action.hacking.variety.Mail command injection,bool
+action.hacking.variety.Null byte injection,bool
+action.hacking.variety.Offline cracking,bool
+action.hacking.variety.OS commanding,bool
+action.hacking.variety.Other,bool
+action.hacking.variety.Pass-the-hash,bool
+action.hacking.variety.Path traversal,bool
+action.hacking.variety.Profile host,bool
+action.hacking.variety.Reverse engineering,bool
+action.hacking.variety.RFI,bool
+action.hacking.variety.Routing detour,bool
+action.hacking.variety.Scan network,bool
+action.hacking.variety.Session fixation,bool
+action.hacking.variety.Session prediction,bool
+action.hacking.variety.Session replay,bool
+action.hacking.variety.Soap array abuse,bool
+action.hacking.variety.Special element injection,bool
+action.hacking.variety.SQLi,bool
+action.hacking.variety.SSI injection,bool
+action.hacking.variety.Unknown,bool
+action.hacking.variety.URL redirector abuse,bool
+action.hacking.variety.Use of stolen creds,bool
+action.hacking.variety.User breakout,bool
+action.hacking.variety.Virtual machine escape,bool
+action.hacking.variety.XML attribute blowup,bool
+action.hacking.variety.XML entity expansion,bool
+action.hacking.variety.XML external entities,bool
+action.hacking.variety.XML injection,bool
+action.hacking.variety.XPath injection,bool
+action.hacking.variety.XQuery injection,bool
+action.hacking.variety.XSS,bool
+action.hacking.vector.3rd party desktop,bool
+action.hacking.vector.Backdoor,bool
+action.hacking.vector.Command shell,bool
+action.hacking.vector.Desktop sharing,bool
+action.hacking.vector.Desktop sharing software,bool
+action.hacking.vector.Hypervisor,bool
+action.hacking.vector.Inter-tenant,bool
+action.hacking.vector.Other,bool
+action.hacking.vector.Other network service,bool
+action.hacking.vector.Partner,bool
+action.hacking.vector.Physical access,bool
+action.hacking.vector.Unknown,bool
+action.hacking.vector.VPN,bool
+action.hacking.vector.Web application,bool
+action.malware.cve,object
+action.malware.name,object
+action.malware.notes,object
+action.malware.result.Deploy payload,bool
+action.malware.result.Elevate,bool
+action.malware.result.Exfiltrate,bool
+action.malware.result.Infiltrate,bool
+action.malware.result.Lateral movement,bool
+action.malware.result.NA,bool
+action.malware.result.Other,bool
+action.malware.result.Persist,bool
+action.malware.result.Unknown,bool
+action.malware.variety.Adminware,bool
+action.malware.variety.Adware,bool
+action.malware.variety.AitM,bool
+action.malware.variety.Backdoor,bool
+action.malware.variety.Backdoor or C2,bool
+action.malware.variety.Brute force,bool
+action.malware.variety.C2,bool
+action.malware.variety.Capture app data,bool
+action.malware.variety.Capture stored data,bool
+action.malware.variety.Click fraud,bool
+action.malware.variety.Click fraud and cryptocurrency mining,bool
+action.malware.variety.Client-side attack,bool
+action.malware.variety.Cryptocurrency mining,bool
+action.malware.variety.Destroy data,bool
+action.malware.variety.Disable controls,bool
+action.malware.variety.DoS,bool
+action.malware.variety.Downloader,bool
+action.malware.variety.Evade Defenses,bool
+action.malware.variety.Exploit misconfig,bool
+action.malware.variety.Exploit vuln,bool
+action.malware.variety.Export data,bool
+action.malware.variety.In-memory,bool
+action.malware.variety.Modify data,bool
+action.malware.variety.Other,bool
+action.malware.variety.Packet sniffer,bool
+action.malware.variety.Pass-the-hash,bool
+action.malware.variety.Password dumper,bool
+action.malware.variety.Profile host,bool
+action.malware.variety.RAM scraper,bool
+action.malware.variety.Ransomware,bool
+action.malware.variety.RAT,bool
+action.malware.variety.Rootkit,bool
+action.malware.variety.Scan network,bool
+action.malware.variety.Spam,bool
+action.malware.variety.Spyware/Keylogger,bool
+action.malware.variety.Trojan,bool
+action.malware.variety.Unknown,bool
+action.malware.variety.Worm,bool
+action.malware.vector.C2,bool
+action.malware.vector.Direct install,bool
+action.malware.vector.Download by malware,bool
+action.malware.vector.Email,bool
+action.malware.vector.Email attachment,bool
+action.malware.vector.Email autoexecute,bool
+action.malware.vector.Email link,bool
+action.malware.vector.Email other,bool
+action.malware.vector.Email unknown,bool
+action.malware.vector.Instant messaging,bool
+action.malware.vector.Network propagation,bool
+action.malware.vector.Other,bool
+action.malware.vector.Partner,bool
+action.malware.vector.Remote injection,bool
+action.malware.vector.Removable media,bool
+action.malware.vector.Software update,bool
+action.malware.vector.Unknown,bool
+action.malware.vector.Web application,bool
+action.malware.vector.Web application - download,bool
+action.malware.vector.Web application - drive-by,bool
+action.misuse.notes,object
+action.misuse.result.Deploy payload,bool
+action.misuse.result.Elevate,bool
+action.misuse.result.Exfiltrate,bool
+action.misuse.result.Infiltrate,bool
+action.misuse.result.Lateral movement,bool
+action.misuse.result.NA,bool
+action.misuse.result.Other,bool
+action.misuse.result.Persist,bool
+action.misuse.result.Unknown,bool
+action.misuse.variety.Data mishandling,bool
+action.misuse.variety.Email misuse,bool
+action.misuse.variety.Evade Defenses,bool
+action.misuse.variety.Illicit content,bool
+action.misuse.variety.Knowledge abuse,bool
+action.misuse.variety.Net misuse,bool
+action.misuse.variety.Other,bool
+action.misuse.variety.Password or Session Sharing,bool
+action.misuse.variety.Possession abuse,bool
+action.misuse.variety.Privilege abuse,bool
+action.misuse.variety.Snap picture,bool
+action.misuse.variety.Unapproved hardware,bool
+action.misuse.variety.Unapproved software,bool
+action.misuse.variety.Unapproved workaround,bool
+action.misuse.variety.Unknown,bool
+action.misuse.vector.LAN access,bool
+action.misuse.vector.Non-corporate,bool
+action.misuse.vector.Other,bool
+action.misuse.vector.Physical access,bool
+action.misuse.vector.Remote access,bool
+action.misuse.vector.Unknown,bool
+action.misuse.vector.Web application,bool
+action.physical.notes,object
+action.physical.result.Deploy payload,bool
+action.physical.result.Elevate,bool
+action.physical.result.Exfiltrate,bool
+action.physical.result.Infiltrate,bool
+action.physical.result.Lateral movement,bool
+action.physical.result.NA,bool
+action.physical.result.Other,bool
+action.physical.result.Persist,bool
+action.physical.result.Unknown,bool
+action.physical.variety.Assault,bool
+action.physical.variety.Bypassed controls,bool
+action.physical.variety.Connection,bool
+action.physical.variety.Destruction,bool
+action.physical.variety.Disabled controls,bool
+action.physical.variety.Evade Defenses,bool
+action.physical.variety.Other,bool
+action.physical.variety.Skimmer,bool
+action.physical.variety.Snooping,bool
+action.physical.variety.Surveillance,bool
+action.physical.variety.Tampering,bool
+action.physical.variety.Theft,bool
+action.physical.variety.Unknown,bool
+action.physical.variety.Wiretapping,bool
+action.physical.vector.Other,bool
+action.physical.vector.Partner facility,bool
+action.physical.vector.Partner vehicle,bool
+action.physical.vector.Personal residence,bool
+action.physical.vector.Personal vehicle,bool
+action.physical.vector.Public facility,bool
+action.physical.vector.Public vehicle,bool
+action.physical.vector.Unknown,bool
+action.physical.vector.Victim grounds,bool
+action.physical.vector.Victim public area,bool
+action.physical.vector.Victim secure area,bool
+action.physical.vector.Victim work area,bool
+action.social.notes,object
+action.social.result.Deploy payload,bool
+action.social.result.Elevate,bool
+action.social.result.Exfiltrate,bool
+action.social.result.Infiltrate,bool
+action.social.result.Lateral movement,bool
+action.social.result.NA,bool
+action.social.result.Other,bool
+action.social.result.Persist,bool
+action.social.result.Unknown,bool
+action.social.target.Auditor,bool
+action.social.target.Call center,bool
+action.social.target.Cashier,bool
+action.social.target.Customer,bool
+action.social.target.Developer,bool
+action.social.target.End-user,bool
+action.social.target.End-user or employee,bool
+action.social.target.Executive,bool
+action.social.target.Finance,bool
+action.social.target.Former employee,bool
+action.social.target.Guard,bool
+action.social.target.Helpdesk,bool
+action.social.target.Human resources,bool
+action.social.target.Maintenance,bool
+action.social.target.Manager,bool
+action.social.target.Other,bool
+action.social.target.Other employee,bool
+action.social.target.Partner,bool
+action.social.target.System admin,bool
+action.social.target.Unknown,bool
+action.social.variety.Baiting,bool
+action.social.variety.Bribery,bool
+action.social.variety.Elicitation,bool
+action.social.variety.Evade Defenses,bool
+action.social.variety.Extortion,bool
+action.social.variety.Forgery,bool
+action.social.variety.Influence,bool
+action.social.variety.Other,bool
+action.social.variety.Phishing,bool
+action.social.variety.Pretexting,bool
+action.social.variety.Prompt bombing,bool
+action.social.variety.Propaganda,bool
+action.social.variety.Scam,bool
+action.social.variety.Spam,bool
+action.social.variety.Unknown,bool
+action.social.vector.Documents,bool
+action.social.vector.Email,bool
+action.social.vector.IM,bool
+action.social.vector.In-person,bool
+action.social.vector.Other,bool
+action.social.vector.Partner,bool
+action.social.vector.Phone,bool
+action.social.vector.Removable media,bool
+action.social.vector.SMS,bool
+action.social.vector.Social media,bool
+action.social.vector.Software,bool
+action.social.vector.Unknown,bool
+action.social.vector.Web application,bool
+action.unknown.notes,object
+action.unknown.result.Deploy payload,bool
+action.unknown.result.Elevate,bool
+action.unknown.result.Exfiltrate,bool
+action.unknown.result.Infiltrate,bool
+action.unknown.result.Lateral movement,bool
+action.unknown.result.NA,bool
+action.unknown.result.Other,bool
+action.unknown.result.Persist,bool
+action.unknown.result.Unknown,bool
+actor.external.country.AD,bool
+actor.external.country.AE,bool
+actor.external.country.AF,bool
+actor.external.country.AG,bool
+actor.external.country.AI,bool
+actor.external.country.AL,bool
+actor.external.country.AM,bool
+actor.external.country.AO,bool
+actor.external.country.AQ,bool
+actor.external.country.AR,bool
+actor.external.country.AS,bool
+actor.external.country.AT,bool
+actor.external.country.AU,bool
+actor.external.country.AW,bool
+actor.external.country.AX,bool
+actor.external.country.AZ,bool
+actor.external.country.BA,bool
+actor.external.country.BB,bool
+actor.external.country.BD,bool
+actor.external.country.BE,bool
+actor.external.country.BF,bool
+actor.external.country.BG,bool
+actor.external.country.BH,bool
+actor.external.country.BI,bool
+actor.external.country.BJ,bool
+actor.external.country.BL,bool
+actor.external.country.BM,bool
+actor.external.country.BN,bool
+actor.external.country.BO,bool
+actor.external.country.BQ,bool
+actor.external.country.BR,bool
+actor.external.country.BS,bool
+actor.external.country.BT,bool
+actor.external.country.BV,bool
+actor.external.country.BW,bool
+actor.external.country.BY,bool
+actor.external.country.BZ,bool
+actor.external.country.CA,bool
+actor.external.country.CC,bool
+actor.external.country.CD,bool
+actor.external.country.CF,bool
+actor.external.country.CG,bool
+actor.external.country.CH,bool
+actor.external.country.CI,bool
+actor.external.country.CK,bool
+actor.external.country.CL,bool
+actor.external.country.CM,bool
+actor.external.country.CN,bool
+actor.external.country.CO,bool
+actor.external.country.CR,bool
+actor.external.country.CU,bool
+actor.external.country.CV,bool
+actor.external.country.CW,bool
+actor.external.country.CX,bool
+actor.external.country.CY,bool
+actor.external.country.CZ,bool
+actor.external.country.DE,bool
+actor.external.country.DJ,bool
+actor.external.country.DK,bool
+actor.external.country.DM,bool
+actor.external.country.DO,bool
+actor.external.country.DZ,bool
+actor.external.country.EC,bool
+actor.external.country.EE,bool
+actor.external.country.EG,bool
+actor.external.country.EH,bool
+actor.external.country.ER,bool
+actor.external.country.ES,bool
+actor.external.country.ET,bool
+actor.external.country.FI,bool
+actor.external.country.FJ,bool
+actor.external.country.FK,bool
+actor.external.country.FM,bool
+actor.external.country.FO,bool
+actor.external.country.FR,bool
+actor.external.country.GA,bool
+actor.external.country.GB,bool
+actor.external.country.GD,bool
+actor.external.country.GE,bool
+actor.external.country.GF,bool
+actor.external.country.GG,bool
+actor.external.country.GH,bool
+actor.external.country.GI,bool
+actor.external.country.GL,bool
+actor.external.country.GM,bool
+actor.external.country.GN,bool
+actor.external.country.GP,bool
+actor.external.country.GQ,bool
+actor.external.country.GR,bool
+actor.external.country.GS,bool
+actor.external.country.GT,bool
+actor.external.country.GU,bool
+actor.external.country.GW,bool
+actor.external.country.GY,bool
+actor.external.country.HK,bool
+actor.external.country.HM,bool
+actor.external.country.HN,bool
+actor.external.country.HR,bool
+actor.external.country.HT,bool
+actor.external.country.HU,bool
+actor.external.country.ID,bool
+actor.external.country.IE,bool
+actor.external.country.IL,bool
+actor.external.country.IM,bool
+actor.external.country.IN,bool
+actor.external.country.IO,bool
+actor.external.country.IQ,bool
+actor.external.country.IR,bool
+actor.external.country.IS,bool
+actor.external.country.IT,bool
+actor.external.country.JE,bool
+actor.external.country.JM,bool
+actor.external.country.JO,bool
+actor.external.country.JP,bool
+actor.external.country.KE,bool
+actor.external.country.KG,bool
+actor.external.country.KH,bool
+actor.external.country.KI,bool
+actor.external.country.KM,bool
+actor.external.country.KN,bool
+actor.external.country.KP,bool
+actor.external.country.KR,bool
+actor.external.country.KW,bool
+actor.external.country.KY,bool
+actor.external.country.KZ,bool
+actor.external.country.LA,bool
+actor.external.country.LB,bool
+actor.external.country.LC,bool
+actor.external.country.LI,bool
+actor.external.country.LK,bool
+actor.external.country.LR,bool
+actor.external.country.LS,bool
+actor.external.country.LT,bool
+actor.external.country.LU,bool
+actor.external.country.LV,bool
+actor.external.country.LY,bool
+actor.external.country.MA,bool
+actor.external.country.MC,bool
+actor.external.country.MD,bool
+actor.external.country.ME,bool
+actor.external.country.MF,bool
+actor.external.country.MG,bool
+actor.external.country.MH,bool
+actor.external.country.MK,bool
+actor.external.country.ML,bool
+actor.external.country.MM,bool
+actor.external.country.MN,bool
+actor.external.country.MO,bool
+actor.external.country.MP,bool
+actor.external.country.MQ,bool
+actor.external.country.MR,bool
+actor.external.country.MS,bool
+actor.external.country.MT,bool
+actor.external.country.MU,bool
+actor.external.country.MV,bool
+actor.external.country.MW,bool
+actor.external.country.MX,bool
+actor.external.country.MY,bool
+actor.external.country.MZ,bool
+actor.external.country.NA,bool
+actor.external.country.NC,bool
+actor.external.country.NE,bool
+actor.external.country.NF,bool
+actor.external.country.NG,bool
+actor.external.country.NI,bool
+actor.external.country.NL,bool
+actor.external.country.NO,bool
+actor.external.country.NP,bool
+actor.external.country.NR,bool
+actor.external.country.NU,bool
+actor.external.country.NZ,bool
+actor.external.country.OM,bool
+actor.external.country.Other,bool
+actor.external.country.PA,bool
+actor.external.country.PE,bool
+actor.external.country.PF,bool
+actor.external.country.PG,bool
+actor.external.country.PH,bool
+actor.external.country.PK,bool
+actor.external.country.PL,bool
+actor.external.country.PM,bool
+actor.external.country.PN,bool
+actor.external.country.PR,bool
+actor.external.country.PS,bool
+actor.external.country.PT,bool
+actor.external.country.PW,bool
+actor.external.country.PY,bool
+actor.external.country.QA,bool
+actor.external.country.RE,bool
+actor.external.country.RO,bool
+actor.external.country.RS,bool
+actor.external.country.RU,bool
+actor.external.country.RW,bool
+actor.external.country.SA,bool
+actor.external.country.SB,bool
+actor.external.country.SC,bool
+actor.external.country.SD,bool
+actor.external.country.SE,bool
+actor.external.country.SG,bool
+actor.external.country.SH,bool
+actor.external.country.SI,bool
+actor.external.country.SJ,bool
+actor.external.country.SK,bool
+actor.external.country.SL,bool
+actor.external.country.SM,bool
+actor.external.country.SN,bool
+actor.external.country.SO,bool
+actor.external.country.SR,bool
+actor.external.country.SS,bool
+actor.external.country.ST,bool
+actor.external.country.SV,bool
+actor.external.country.SX,bool
+actor.external.country.SY,bool
+actor.external.country.SZ,bool
+actor.external.country.TC,bool
+actor.external.country.TD,bool
+actor.external.country.TF,bool
+actor.external.country.TG,bool
+actor.external.country.TH,bool
+actor.external.country.TJ,bool
+actor.external.country.TK,bool
+actor.external.country.TL,bool
+actor.external.country.TM,bool
+actor.external.country.TN,bool
+actor.external.country.TO,bool
+actor.external.country.TR,bool
+actor.external.country.TT,bool
+actor.external.country.TV,bool
+actor.external.country.TW,bool
+actor.external.country.TZ,bool
+actor.external.country.UA,bool
+actor.external.country.UG,bool
+actor.external.country.UM,bool
+actor.external.country.Unknown,bool
+actor.external.country.US,bool
+actor.external.country.UY,bool
+actor.external.country.UZ,bool
+actor.external.country.VA,bool
+actor.external.country.VC,bool
+actor.external.country.VE,bool
+actor.external.country.VG,bool
+actor.external.country.VI,bool
+actor.external.country.VN,bool
+actor.external.country.VU,bool
+actor.external.country.WF,bool
+actor.external.country.WS,bool
+actor.external.country.XK,bool
+actor.external.country.YE,bool
+actor.external.country.YT,bool
+actor.external.country.ZA,bool
+actor.external.country.ZM,bool
+actor.external.country.ZW,bool
+actor.external.motive.Convenience,bool
+actor.external.motive.Espionage,bool
+actor.external.motive.Fear,bool
+actor.external.motive.Financial,bool
+actor.external.motive.Fun,bool
+actor.external.motive.Grudge,bool
+actor.external.motive.Ideology,bool
+actor.external.motive.NA,bool
+actor.external.motive.Other,bool
+actor.external.motive.Secondary,bool
+actor.external.motive.Unknown,bool
+actor.external.name,object
+actor.external.notes,object
+actor.external.region,object
+actor.external.variety.Acquaintance,bool
+actor.external.variety.Activist,bool
+actor.external.variety.Auditor,bool
+actor.external.variety.Competitor,bool
+actor.external.variety.Customer,bool
+actor.external.variety.Force majeure,bool
+actor.external.variety.Former employee,bool
+actor.external.variety.Nation-state,bool
+actor.external.variety.Organized crime,bool
+actor.external.variety.Other,bool
+actor.external.variety.State-affiliated,bool
+actor.external.variety.Terrorist,bool
+actor.external.variety.Unaffiliated,bool
+actor.external.variety.Unknown,bool
+actor.internal.job_change.Demoted,bool
+actor.internal.job_change.Hired,bool
+actor.internal.job_change.Job eval,bool
+actor.internal.job_change.Lateral move,bool
+actor.internal.job_change.Let go,bool
+actor.internal.job_change.Other,bool
+actor.internal.job_change.Passed over,bool
+actor.internal.job_change.Personal issues,bool
+actor.internal.job_change.Promoted,bool
+actor.internal.job_change.Reprimanded,bool
+actor.internal.job_change.Resigned,bool
+actor.internal.job_change.Unknown,bool
+actor.internal.motive.Convenience,bool
+actor.internal.motive.Espionage,bool
+actor.internal.motive.Fear,bool
+actor.internal.motive.Financial,bool
+actor.internal.motive.Fun,bool
+actor.internal.motive.Grudge,bool
+actor.internal.motive.Ideology,bool
+actor.internal.motive.NA,bool
+actor.internal.motive.Other,bool
+actor.internal.motive.Secondary,bool
+actor.internal.motive.Unknown,bool
+actor.internal.notes,object
+actor.internal.variety.Auditor,bool
+actor.internal.variety.Call center,bool
+actor.internal.variety.Cashier,bool
+actor.internal.variety.Developer,bool
+actor.internal.variety.Doctor or nurse,bool
+actor.internal.variety.End-user,bool
+actor.internal.variety.Executive,bool
+actor.internal.variety.Finance,bool
+actor.internal.variety.Guard,bool
+actor.internal.variety.Helpdesk,bool
+actor.internal.variety.Human resources,bool
+actor.internal.variety.Maintenance,bool
+actor.internal.variety.Manager,bool
+actor.internal.variety.Other,bool
+actor.internal.variety.System admin,bool
+actor.internal.variety.Unknown,bool
+actor.partner.country.AD,bool
+actor.partner.country.AE,bool
+actor.partner.country.AF,bool
+actor.partner.country.AG,bool
+actor.partner.country.AI,bool
+actor.partner.country.AL,bool
+actor.partner.country.AM,bool
+actor.partner.country.AO,bool
+actor.partner.country.AQ,bool
+actor.partner.country.AR,bool
+actor.partner.country.AS,bool
+actor.partner.country.AT,bool
+actor.partner.country.AU,bool
+actor.partner.country.AW,bool
+actor.partner.country.AX,bool
+actor.partner.country.AZ,bool
+actor.partner.country.BA,bool
+actor.partner.country.BB,bool
+actor.partner.country.BD,bool
+actor.partner.country.BE,bool
+actor.partner.country.BF,bool
+actor.partner.country.BG,bool
+actor.partner.country.BH,bool
+actor.partner.country.BI,bool
+actor.partner.country.BJ,bool
+actor.partner.country.BL,bool
+actor.partner.country.BM,bool
+actor.partner.country.BN,bool
+actor.partner.country.BO,bool
+actor.partner.country.BQ,bool
+actor.partner.country.BR,bool
+actor.partner.country.BS,bool
+actor.partner.country.BT,bool
+actor.partner.country.BV,bool
+actor.partner.country.BW,bool
+actor.partner.country.BY,bool
+actor.partner.country.BZ,bool
+actor.partner.country.CA,bool
+actor.partner.country.CC,bool
+actor.partner.country.CD,bool
+actor.partner.country.CF,bool
+actor.partner.country.CG,bool
+actor.partner.country.CH,bool
+actor.partner.country.CI,bool
+actor.partner.country.CK,bool
+actor.partner.country.CL,bool
+actor.partner.country.CM,bool
+actor.partner.country.CN,bool
+actor.partner.country.CO,bool
+actor.partner.country.CR,bool
+actor.partner.country.CU,bool
+actor.partner.country.CV,bool
+actor.partner.country.CW,bool
+actor.partner.country.CX,bool
+actor.partner.country.CY,bool
+actor.partner.country.CZ,bool
+actor.partner.country.DE,bool
+actor.partner.country.DJ,bool
+actor.partner.country.DK,bool
+actor.partner.country.DM,bool
+actor.partner.country.DO,bool
+actor.partner.country.DZ,bool
+actor.partner.country.EC,bool
+actor.partner.country.EE,bool
+actor.partner.country.EG,bool
+actor.partner.country.EH,bool
+actor.partner.country.ER,bool
+actor.partner.country.ES,bool
+actor.partner.country.ET,bool
+actor.partner.country.FI,bool
+actor.partner.country.FJ,bool
+actor.partner.country.FK,bool
+actor.partner.country.FM,bool
+actor.partner.country.FO,bool
+actor.partner.country.FR,bool
+actor.partner.country.GA,bool
+actor.partner.country.GB,bool
+actor.partner.country.GD,bool
+actor.partner.country.GE,bool
+actor.partner.country.GF,bool
+actor.partner.country.GG,bool
+actor.partner.country.GH,bool
+actor.partner.country.GI,bool
+actor.partner.country.GL,bool
+actor.partner.country.GM,bool
+actor.partner.country.GN,bool
+actor.partner.country.GP,bool
+actor.partner.country.GQ,bool
+actor.partner.country.GR,bool
+actor.partner.country.GS,bool
+actor.partner.country.GT,bool
+actor.partner.country.GU,bool
+actor.partner.country.GW,bool
+actor.partner.country.GY,bool
+actor.partner.country.HK,bool
+actor.partner.country.HM,bool
+actor.partner.country.HN,bool
+actor.partner.country.HR,bool
+actor.partner.country.HT,bool
+actor.partner.country.HU,bool
+actor.partner.country.ID,bool
+actor.partner.country.IE,bool
+actor.partner.country.IL,bool
+actor.partner.country.IM,bool
+actor.partner.country.IN,bool
+actor.partner.country.IO,bool
+actor.partner.country.IQ,bool
+actor.partner.country.IR,bool
+actor.partner.country.IS,bool
+actor.partner.country.IT,bool
+actor.partner.country.JE,bool
+actor.partner.country.JM,bool
+actor.partner.country.JO,bool
+actor.partner.country.JP,bool
+actor.partner.country.KE,bool
+actor.partner.country.KG,bool
+actor.partner.country.KH,bool
+actor.partner.country.KI,bool
+actor.partner.country.KM,bool
+actor.partner.country.KN,bool
+actor.partner.country.KP,bool
+actor.partner.country.KR,bool
+actor.partner.country.KW,bool
+actor.partner.country.KY,bool
+actor.partner.country.KZ,bool
+actor.partner.country.LA,bool
+actor.partner.country.LB,bool
+actor.partner.country.LC,bool
+actor.partner.country.LI,bool
+actor.partner.country.LK,bool
+actor.partner.country.LR,bool
+actor.partner.country.LS,bool
+actor.partner.country.LT,bool
+actor.partner.country.LU,bool
+actor.partner.country.LV,bool
+actor.partner.country.LY,bool
+actor.partner.country.MA,bool
+actor.partner.country.MC,bool
+actor.partner.country.MD,bool
+actor.partner.country.ME,bool
+actor.partner.country.MF,bool
+actor.partner.country.MG,bool
+actor.partner.country.MH,bool
+actor.partner.country.MK,bool
+actor.partner.country.ML,bool
+actor.partner.country.MM,bool
+actor.partner.country.MN,bool
+actor.partner.country.MO,bool
+actor.partner.country.MP,bool
+actor.partner.country.MQ,bool
+actor.partner.country.MR,bool
+actor.partner.country.MS,bool
+actor.partner.country.MT,bool
+actor.partner.country.MU,bool
+actor.partner.country.MV,bool
+actor.partner.country.MW,bool
+actor.partner.country.MX,bool
+actor.partner.country.MY,bool
+actor.partner.country.MZ,bool
+actor.partner.country.NA,bool
+actor.partner.country.NC,bool
+actor.partner.country.NE,bool
+actor.partner.country.NF,bool
+actor.partner.country.NG,bool
+actor.partner.country.NI,bool
+actor.partner.country.NL,bool
+actor.partner.country.NO,bool
+actor.partner.country.NP,bool
+actor.partner.country.NR,bool
+actor.partner.country.NU,bool
+actor.partner.country.NZ,bool
+actor.partner.country.OM,bool
+actor.partner.country.Other,bool
+actor.partner.country.PA,bool
+actor.partner.country.PE,bool
+actor.partner.country.PF,bool
+actor.partner.country.PG,bool
+actor.partner.country.PH,bool
+actor.partner.country.PK,bool
+actor.partner.country.PL,bool
+actor.partner.country.PM,bool
+actor.partner.country.PN,bool
+actor.partner.country.PR,bool
+actor.partner.country.PS,bool
+actor.partner.country.PT,bool
+actor.partner.country.PW,bool
+actor.partner.country.PY,bool
+actor.partner.country.QA,bool
+actor.partner.country.RE,bool
+actor.partner.country.RO,bool
+actor.partner.country.RS,bool
+actor.partner.country.RU,bool
+actor.partner.country.RW,bool
+actor.partner.country.SA,bool
+actor.partner.country.SB,bool
+actor.partner.country.SC,bool
+actor.partner.country.SD,bool
+actor.partner.country.SE,bool
+actor.partner.country.SG,bool
+actor.partner.country.SH,bool
+actor.partner.country.SI,bool
+actor.partner.country.SJ,bool
+actor.partner.country.SK,bool
+actor.partner.country.SL,bool
+actor.partner.country.SM,bool
+actor.partner.country.SN,bool
+actor.partner.country.SO,bool
+actor.partner.country.SR,bool
+actor.partner.country.SS,bool
+actor.partner.country.ST,bool
+actor.partner.country.SV,bool
+actor.partner.country.SX,bool
+actor.partner.country.SY,bool
+actor.partner.country.SZ,bool
+actor.partner.country.TC,bool
+actor.partner.country.TD,bool
+actor.partner.country.TF,bool
+actor.partner.country.TG,bool
+actor.partner.country.TH,bool
+actor.partner.country.TJ,bool
+actor.partner.country.TK,bool
+actor.partner.country.TL,bool
+actor.partner.country.TM,bool
+actor.partner.country.TN,bool
+actor.partner.country.TO,bool
+actor.partner.country.TR,bool
+actor.partner.country.TT,bool
+actor.partner.country.TV,bool
+actor.partner.country.TW,bool
+actor.partner.country.TZ,bool
+actor.partner.country.UA,bool
+actor.partner.country.UG,bool
+actor.partner.country.UM,bool
+actor.partner.country.Unknown,bool
+actor.partner.country.US,bool
+actor.partner.country.UY,bool
+actor.partner.country.UZ,bool
+actor.partner.country.VA,bool
+actor.partner.country.VC,bool
+actor.partner.country.VE,bool
+actor.partner.country.VG,bool
+actor.partner.country.VI,bool
+actor.partner.country.VN,bool
+actor.partner.country.VU,bool
+actor.partner.country.WF,bool
+actor.partner.country.WS,bool
+actor.partner.country.XK,bool
+actor.partner.country.YE,bool
+actor.partner.country.YT,bool
+actor.partner.country.ZA,bool
+actor.partner.country.ZM,bool
+actor.partner.country.ZW,bool
+actor.partner.industry,float64
+actor.partner.motive.Convenience,bool
+actor.partner.motive.Espionage,bool
+actor.partner.motive.Fear,bool
+actor.partner.motive.Financial,bool
+actor.partner.motive.Fun,bool
+actor.partner.motive.Grudge,bool
+actor.partner.motive.Ideology,bool
+actor.partner.motive.NA,bool
+actor.partner.motive.Other,bool
+actor.partner.motive.Secondary,bool
+actor.partner.motive.Unknown,bool
+actor.partner.name,object
+actor.partner.notes,object
+actor.partner.region,object
+actor.unknown.notes,object
+asset.assets.amount.E - Other,float64
+asset.assets.amount.E - Telematics,float64
+asset.assets.amount.E - Telemetry,float64
+asset.assets.amount.E - Unknown,float64
+asset.assets.amount.M - Disk drive,float64
+asset.assets.amount.M - Disk media,float64
+asset.assets.amount.M - Documents,float64
+asset.assets.amount.M - Fax,float64
+asset.assets.amount.M - Flash drive,float64
+asset.assets.amount.M - Other,float64
+asset.assets.amount.M - Payment card,float64
+asset.assets.amount.M - SIM card,float64
+asset.assets.amount.M - Smart card,float64
+asset.assets.amount.M - Tapes,float64
+asset.assets.amount.M - Unknown,float64
+asset.assets.amount.N - Access reader,float64
+asset.assets.amount.N - Broadband,float64
+asset.assets.amount.N - Camera,float64
+asset.assets.amount.N - Firewall,float64
+asset.assets.amount.N - HSM,float64
+asset.assets.amount.N - IDS,float64
+asset.assets.amount.N - LAN,float64
+asset.assets.amount.N - NAS,float64
+asset.assets.amount.N - Other,float64
+asset.assets.amount.N - PBX,float64
+asset.assets.amount.N - PLC,float64
+asset.assets.amount.N - Private WAN,float64
+asset.assets.amount.N - Public WAN,float64
+asset.assets.amount.N - Router or switch,float64
+asset.assets.amount.N - RTU,float64
+asset.assets.amount.N - SAN,float64
+asset.assets.amount.N - Telephone,float64
+asset.assets.amount.N - Unknown,float64
+asset.assets.amount.N - VoIP adapter,float64
+asset.assets.amount.N - WLAN,float64
+asset.assets.amount.Other,float64
+asset.assets.amount.P - Auditor,float64
+asset.assets.amount.P - Call center,float64
+asset.assets.amount.P - Cashier,float64
+asset.assets.amount.P - Customer,float64
+asset.assets.amount.P - Developer,float64
+asset.assets.amount.P - End-user,float64
+asset.assets.amount.P - End-user or employee,float64
+asset.assets.amount.P - Executive,float64
+asset.assets.amount.P - Finance,float64
+asset.assets.amount.P - Former employee,float64
+asset.assets.amount.P - Guard,float64
+asset.assets.amount.P - Helpdesk,float64
+asset.assets.amount.P - Human resources,float64
+asset.assets.amount.P - Maintenance,float64
+asset.assets.amount.P - Manager,float64
+asset.assets.amount.P - Other,float64
+asset.assets.amount.P - Other employee,float64
+asset.assets.amount.P - Partner,float64
+asset.assets.amount.P - System admin,float64
+asset.assets.amount.P - Unknown,float64
+asset.assets.amount.S - Authentication,float64
+asset.assets.amount.S - Backup,float64
+asset.assets.amount.S - Code repository,float64
+asset.assets.amount.S - Configuration or patch management,float64
+asset.assets.amount.S - Database,float64
+asset.assets.amount.S - DCS,float64
+asset.assets.amount.S - DHCP,float64
+asset.assets.amount.S - Directory,float64
+asset.assets.amount.S - DNS,float64
+asset.assets.amount.S - File,float64
+asset.assets.amount.S - ICS,float64
+asset.assets.amount.S - Log,float64
+asset.assets.amount.S - Mail,float64
+asset.assets.amount.S - Mainframe,float64
+asset.assets.amount.S - Other,float64
+asset.assets.amount.S - Payment switch,float64
+asset.assets.amount.S - POS controller,float64
+asset.assets.amount.S - Print,float64
+asset.assets.amount.S - Proxy,float64
+asset.assets.amount.S - Remote access,float64
+asset.assets.amount.S - Unknown,float64
+asset.assets.amount.S - VM host,float64
+asset.assets.amount.S - Web application,float64
+asset.assets.amount.T - ATM,float64
+asset.assets.amount.T - Gas terminal,float64
+asset.assets.amount.T - Kiosk,float64
+asset.assets.amount.T - Other,float64
+asset.assets.amount.T - PED pad,float64
+asset.assets.amount.T - Unknown,float64
+asset.assets.amount.U - Auth token,float64
+asset.assets.amount.U - Desktop,float64
+asset.assets.amount.U - Desktop or laptop,float64
+asset.assets.amount.U - Laptop,float64
+asset.assets.amount.U - Media,float64
+asset.assets.amount.U - Mobile phone,float64
+asset.assets.amount.U - Other,float64
+asset.assets.amount.U - Peripheral,float64
+asset.assets.amount.U - POS terminal,float64
+asset.assets.amount.U - Tablet,float64
+asset.assets.amount.U - Telephone,float64
+asset.assets.amount.U - Unknown,float64
+asset.assets.amount.U - VoIP phone,float64
+asset.assets.amount.Unknown,float64
+asset.assets.variety.E - Other,bool
+asset.assets.variety.E - Telematics,bool
+asset.assets.variety.E - Telemetry,bool
+asset.assets.variety.E - Unknown,bool
+asset.assets.variety.M - Disk drive,bool
+asset.assets.variety.M - Disk media,bool
+asset.assets.variety.M - Documents,bool
+asset.assets.variety.M - Fax,bool
+asset.assets.variety.M - Flash drive,bool
+asset.assets.variety.M - Other,bool
+asset.assets.variety.M - Payment card,bool
+asset.assets.variety.M - SIM card,bool
+asset.assets.variety.M - Smart card,bool
+asset.assets.variety.M - Tapes,bool
+asset.assets.variety.M - Unknown,bool
+asset.assets.variety.N - Access reader,bool
+asset.assets.variety.N - Broadband,bool
+asset.assets.variety.N - Camera,bool
+asset.assets.variety.N - Firewall,bool
+asset.assets.variety.N - HSM,bool
+asset.assets.variety.N - IDS,bool
+asset.assets.variety.N - LAN,bool
+asset.assets.variety.N - NAS,bool
+asset.assets.variety.N - Other,bool
+asset.assets.variety.N - PBX,bool
+asset.assets.variety.N - PLC,bool
+asset.assets.variety.N - Private WAN,bool
+asset.assets.variety.N - Public WAN,bool
+asset.assets.variety.N - Router or switch,bool
+asset.assets.variety.N - RTU,bool
+asset.assets.variety.N - SAN,bool
+asset.assets.variety.N - Telephone,bool
+asset.assets.variety.N - Unknown,bool
+asset.assets.variety.N - VoIP adapter,bool
+asset.assets.variety.N - WLAN,bool
+asset.assets.variety.Other,bool
+asset.assets.variety.P - Auditor,bool
+asset.assets.variety.P - Call center,bool
+asset.assets.variety.P - Cashier,bool
+asset.assets.variety.P - Customer,bool
+asset.assets.variety.P - Developer,bool
+asset.assets.variety.P - End-user,bool
+asset.assets.variety.P - End-user or employee,bool
+asset.assets.variety.P - Executive,bool
+asset.assets.variety.P - Finance,bool
+asset.assets.variety.P - Former employee,bool
+asset.assets.variety.P - Guard,bool
+asset.assets.variety.P - Helpdesk,bool
+asset.assets.variety.P - Human resources,bool
+asset.assets.variety.P - Maintenance,bool
+asset.assets.variety.P - Manager,bool
+asset.assets.variety.P - Other,bool
+asset.assets.variety.P - Other employee,bool
+asset.assets.variety.P - Partner,bool
+asset.assets.variety.P - System admin,bool
+asset.assets.variety.P - Unknown,bool
+asset.assets.variety.S - Authentication,bool
+asset.assets.variety.S - Backup,bool
+asset.assets.variety.S - Code repository,bool
+asset.assets.variety.S - Configuration or patch management,bool
+asset.assets.variety.S - Database,bool
+asset.assets.variety.S - DCS,bool
+asset.assets.variety.S - DHCP,bool
+asset.assets.variety.S - Directory,bool
+asset.assets.variety.S - DNS,bool
+asset.assets.variety.S - File,bool
+asset.assets.variety.S - ICS,bool
+asset.assets.variety.S - Log,bool
+asset.assets.variety.S - Mail,bool
+asset.assets.variety.S - Mainframe,bool
+asset.assets.variety.S - Other,bool
+asset.assets.variety.S - Payment switch,bool
+asset.assets.variety.S - POS controller,bool
+asset.assets.variety.S - Print,bool
+asset.assets.variety.S - Proxy,bool
+asset.assets.variety.S - Remote access,bool
+asset.assets.variety.S - Unknown,bool
+asset.assets.variety.S - VM host,bool
+asset.assets.variety.S - Web application,bool
+asset.assets.variety.T - ATM,bool
+asset.assets.variety.T - Gas terminal,bool
+asset.assets.variety.T - Kiosk,bool
+asset.assets.variety.T - Other,bool
+asset.assets.variety.T - PED pad,bool
+asset.assets.variety.T - Unknown,bool
+asset.assets.variety.U - Auth token,bool
+asset.assets.variety.U - Desktop,bool
+asset.assets.variety.U - Desktop or laptop,bool
+asset.assets.variety.U - Laptop,bool
+asset.assets.variety.U - Media,bool
+asset.assets.variety.U - Mobile phone,bool
+asset.assets.variety.U - Other,bool
+asset.assets.variety.U - Peripheral,bool
+asset.assets.variety.U - POS terminal,bool
+asset.assets.variety.U - Tablet,bool
+asset.assets.variety.U - Telephone,bool
+asset.assets.variety.U - Unknown,bool
+asset.assets.variety.U - VoIP phone,bool
+asset.assets.variety.Unknown,bool
+asset.cloud.External Cloud Asset(s),bool
+asset.cloud.NA,bool
+asset.cloud.On-Premise Asset(s),bool
+asset.cloud.Other,bool
+asset.cloud.Unknown,bool
+asset.country.AD,bool
+asset.country.AE,bool
+asset.country.AF,bool
+asset.country.AG,bool
+asset.country.AI,bool
+asset.country.AL,bool
+asset.country.AM,bool
+asset.country.AO,bool
+asset.country.AQ,bool
+asset.country.AR,bool
+asset.country.AS,bool
+asset.country.AT,bool
+asset.country.AU,bool
+asset.country.AW,bool
+asset.country.AX,bool
+asset.country.AZ,bool
+asset.country.BA,bool
+asset.country.BB,bool
+asset.country.BD,bool
+asset.country.BE,bool
+asset.country.BF,bool
+asset.country.BG,bool
+asset.country.BH,bool
+asset.country.BI,bool
+asset.country.BJ,bool
+asset.country.BL,bool
+asset.country.BM,bool
+asset.country.BN,bool
+asset.country.BO,bool
+asset.country.BQ,bool
+asset.country.BR,bool
+asset.country.BS,bool
+asset.country.BT,bool
+asset.country.BV,bool
+asset.country.BW,bool
+asset.country.BY,bool
+asset.country.BZ,bool
+asset.country.CA,bool
+asset.country.CC,bool
+asset.country.CD,bool
+asset.country.CF,bool
+asset.country.CG,bool
+asset.country.CH,bool
+asset.country.CI,bool
+asset.country.CK,bool
+asset.country.CL,bool
+asset.country.CM,bool
+asset.country.CN,bool
+asset.country.CO,bool
+asset.country.CR,bool
+asset.country.CU,bool
+asset.country.CV,bool
+asset.country.CW,bool
+asset.country.CX,bool
+asset.country.CY,bool
+asset.country.CZ,bool
+asset.country.DE,bool
+asset.country.DJ,bool
+asset.country.DK,bool
+asset.country.DM,bool
+asset.country.DO,bool
+asset.country.DZ,bool
+asset.country.EC,bool
+asset.country.EE,bool
+asset.country.EG,bool
+asset.country.EH,bool
+asset.country.ER,bool
+asset.country.ES,bool
+asset.country.ET,bool
+asset.country.FI,bool
+asset.country.FJ,bool
+asset.country.FK,bool
+asset.country.FM,bool
+asset.country.FO,bool
+asset.country.FR,bool
+asset.country.GA,bool
+asset.country.GB,bool
+asset.country.GD,bool
+asset.country.GE,bool
+asset.country.GF,bool
+asset.country.GG,bool
+asset.country.GH,bool
+asset.country.GI,bool
+asset.country.GL,bool
+asset.country.GM,bool
+asset.country.GN,bool
+asset.country.GP,bool
+asset.country.GQ,bool
+asset.country.GR,bool
+asset.country.GS,bool
+asset.country.GT,bool
+asset.country.GU,bool
+asset.country.GW,bool
+asset.country.GY,bool
+asset.country.HK,bool
+asset.country.HM,bool
+asset.country.HN,bool
+asset.country.HR,bool
+asset.country.HT,bool
+asset.country.HU,bool
+asset.country.ID,bool
+asset.country.IE,bool
+asset.country.IL,bool
+asset.country.IM,bool
+asset.country.IN,bool
+asset.country.IO,bool
+asset.country.IQ,bool
+asset.country.IR,bool
+asset.country.IS,bool
+asset.country.IT,bool
+asset.country.JE,bool
+asset.country.JM,bool
+asset.country.JO,bool
+asset.country.JP,bool
+asset.country.KE,bool
+asset.country.KG,bool
+asset.country.KH,bool
+asset.country.KI,bool
+asset.country.KM,bool
+asset.country.KN,bool
+asset.country.KP,bool
+asset.country.KR,bool
+asset.country.KW,bool
+asset.country.KY,bool
+asset.country.KZ,bool
+asset.country.LA,bool
+asset.country.LB,bool
+asset.country.LC,bool
+asset.country.LI,bool
+asset.country.LK,bool
+asset.country.LR,bool
+asset.country.LS,bool
+asset.country.LT,bool
+asset.country.LU,bool
+asset.country.LV,bool
+asset.country.LY,bool
+asset.country.MA,bool
+asset.country.MC,bool
+asset.country.MD,bool
+asset.country.ME,bool
+asset.country.MF,bool
+asset.country.MG,bool
+asset.country.MH,bool
+asset.country.MK,bool
+asset.country.ML,bool
+asset.country.MM,bool
+asset.country.MN,bool
+asset.country.MO,bool
+asset.country.MP,bool
+asset.country.MQ,bool
+asset.country.MR,bool
+asset.country.MS,bool
+asset.country.MT,bool
+asset.country.MU,bool
+asset.country.MV,bool
+asset.country.MW,bool
+asset.country.MX,bool
+asset.country.MY,bool
+asset.country.MZ,bool
+asset.country.NA,bool
+asset.country.NC,bool
+asset.country.NE,bool
+asset.country.NF,bool
+asset.country.NG,bool
+asset.country.NI,bool
+asset.country.NL,bool
+asset.country.NO,bool
+asset.country.NP,bool
+asset.country.NR,bool
+asset.country.NU,bool
+asset.country.NZ,bool
+asset.country.OM,bool
+asset.country.Other,bool
+asset.country.PA,bool
+asset.country.PE,bool
+asset.country.PF,bool
+asset.country.PG,bool
+asset.country.PH,bool
+asset.country.PK,bool
+asset.country.PL,bool
+asset.country.PM,bool
+asset.country.PN,bool
+asset.country.PR,bool
+asset.country.PS,bool
+asset.country.PT,bool
+asset.country.PW,bool
+asset.country.PY,bool
+asset.country.QA,bool
+asset.country.RE,bool
+asset.country.RO,bool
+asset.country.RS,bool
+asset.country.RU,bool
+asset.country.RW,bool
+asset.country.SA,bool
+asset.country.SB,bool
+asset.country.SC,bool
+asset.country.SD,bool
+asset.country.SE,bool
+asset.country.SG,bool
+asset.country.SH,bool
+asset.country.SI,bool
+asset.country.SJ,bool
+asset.country.SK,bool
+asset.country.SL,bool
+asset.country.SM,bool
+asset.country.SN,bool
+asset.country.SO,bool
+asset.country.SR,bool
+asset.country.SS,bool
+asset.country.ST,bool
+asset.country.SV,bool
+asset.country.SX,bool
+asset.country.SY,bool
+asset.country.SZ,bool
+asset.country.TC,bool
+asset.country.TD,bool
+asset.country.TF,bool
+asset.country.TG,bool
+asset.country.TH,bool
+asset.country.TJ,bool
+asset.country.TK,bool
+asset.country.TL,bool
+asset.country.TM,bool
+asset.country.TN,bool
+asset.country.TO,bool
+asset.country.TR,bool
+asset.country.TT,bool
+asset.country.TV,bool
+asset.country.TW,bool
+asset.country.TZ,bool
+asset.country.UA,bool
+asset.country.UG,bool
+asset.country.UM,bool
+asset.country.Unknown,bool
+asset.country.US,bool
+asset.country.UY,bool
+asset.country.UZ,bool
+asset.country.VA,bool
+asset.country.VC,bool
+asset.country.VE,bool
+asset.country.VG,bool
+asset.country.VI,bool
+asset.country.VN,bool
+asset.country.VU,bool
+asset.country.WF,bool
+asset.country.WS,bool
+asset.country.XK,bool
+asset.country.YE,bool
+asset.country.YT,bool
+asset.country.ZA,bool
+asset.country.ZM,bool
+asset.country.ZW,bool
+asset.hosting.External - dedicated environment,bool
+asset.hosting.External - shared environment,bool
+asset.hosting.External - unknown environment,bool
+asset.hosting.Internal,bool
+asset.hosting.NA,bool
+asset.hosting.Other,bool
+asset.hosting.Unknown,bool
+asset.management.Co-managed,bool
+asset.management.External,bool
+asset.management.Internal,bool
+asset.management.NA,bool
+asset.management.Other,bool
+asset.management.Unknown,bool
+asset.notes,object
+asset.ownership.Customer,bool
+asset.ownership.Employee,bool
+asset.ownership.NA,bool
+asset.ownership.Other,bool
+asset.ownership.Partner,bool
+asset.ownership.Unknown,bool
+asset.ownership.Victim,bool
+asset.role.IT,bool
+asset.role.NA,bool
+asset.role.OT,bool
+asset.role.Other,bool
+asset.role.Unknown,bool
+asset.total_amount,float64
+attribute.availability.duration.unit.Days,bool
+attribute.availability.duration.unit.Hours,bool
+attribute.availability.duration.unit.Minutes,bool
+attribute.availability.duration.unit.Months,bool
+attribute.availability.duration.unit.NA,bool
+attribute.availability.duration.unit.Never,bool
+attribute.availability.duration.unit.Seconds,bool
+attribute.availability.duration.unit.Unknown,bool
+attribute.availability.duration.unit.Weeks,bool
+attribute.availability.duration.unit.Years,bool
+attribute.availability.duration.value,float64
+attribute.availability.notes,object
+attribute.availability.variety.Acceleration,bool
+attribute.availability.variety.Degradation,bool
+attribute.availability.variety.Destruction,bool
+attribute.availability.variety.Interruption,bool
+attribute.availability.variety.Loss,bool
+attribute.availability.variety.Obscuration,bool
+attribute.availability.variety.Other,bool
+attribute.availability.variety.Unknown,bool
+attribute.confidentiality.data_disclosure.No,bool
+attribute.confidentiality.data_disclosure.Potentially,bool
+attribute.confidentiality.data_disclosure.Unknown,bool
+attribute.confidentiality.data_disclosure.Yes,bool
+attribute.confidentiality.data_total,float64
+attribute.confidentiality.data_victim.Customer,bool
+attribute.confidentiality.data_victim.Employee,bool
+attribute.confidentiality.data_victim.Other,bool
+attribute.confidentiality.data_victim.Partner,bool
+attribute.confidentiality.data_victim.Patient,bool
+attribute.confidentiality.data_victim.Student,bool
+attribute.confidentiality.data_victim.Unknown,bool
+attribute.confidentiality.data_victim.Victim organization,bool
+attribute.confidentiality.data.amount.API key,float64
+attribute.confidentiality.data.amount.Bank,float64
+attribute.confidentiality.data.amount.Classified,float64
+attribute.confidentiality.data.amount.Copyrighted,float64
+attribute.confidentiality.data.amount.Credentials,float64
+attribute.confidentiality.data.amount.Digital certificate,float64
+attribute.confidentiality.data.amount.Internal,float64
+attribute.confidentiality.data.amount.Medical,float64
+attribute.confidentiality.data.amount.Multi-factor credential,float64
+attribute.confidentiality.data.amount.Other,float64
+attribute.confidentiality.data.amount.Payment,float64
+attribute.confidentiality.data.amount.Personal,float64
+attribute.confidentiality.data.amount.Secrets,float64
+attribute.confidentiality.data.amount.Sensitive Personal,float64
+attribute.confidentiality.data.amount.Session key,float64
+attribute.confidentiality.data.amount.Source code,float64
+attribute.confidentiality.data.amount.System,float64
+attribute.confidentiality.data.amount.Unknown,float64
+attribute.confidentiality.data.amount.Virtual currency,float64
+attribute.confidentiality.data.variety.API key,bool
+attribute.confidentiality.data.variety.Bank,bool
+attribute.confidentiality.data.variety.Classified,bool
+attribute.confidentiality.data.variety.Copyrighted,bool
+attribute.confidentiality.data.variety.Credentials,bool
+attribute.confidentiality.data.variety.Digital certificate,bool
+attribute.confidentiality.data.variety.Internal,bool
+attribute.confidentiality.data.variety.Medical,bool
+attribute.confidentiality.data.variety.Multi-factor credential,bool
+attribute.confidentiality.data.variety.Other,bool
+attribute.confidentiality.data.variety.Payment,bool
+attribute.confidentiality.data.variety.Personal,bool
+attribute.confidentiality.data.variety.Secrets,bool
+attribute.confidentiality.data.variety.Sensitive Personal,bool
+attribute.confidentiality.data.variety.Session key,bool
+attribute.confidentiality.data.variety.Source code,bool
+attribute.confidentiality.data.variety.System,bool
+attribute.confidentiality.data.variety.Unknown,bool
+attribute.confidentiality.data.variety.Virtual currency,bool
+attribute.confidentiality.notes,object
+attribute.confidentiality.state.Other,bool
+attribute.confidentiality.state.Printed,bool
+attribute.confidentiality.state.Processed,bool
+attribute.confidentiality.state.Stored,bool
+attribute.confidentiality.state.Stored encrypted,bool
+attribute.confidentiality.state.Stored unencrypted,bool
+attribute.confidentiality.state.Transmitted,bool
+attribute.confidentiality.state.Transmitted encrypted,bool
+attribute.confidentiality.state.Transmitted unencrypted,bool
+attribute.confidentiality.state.Unknown,bool
+attribute.integrity.notes,object
+attribute.integrity.variety.Alter behavior,bool
+attribute.integrity.variety.Created account,bool
+attribute.integrity.variety.Defacement,bool
+attribute.integrity.variety.Fraudulent transaction,bool
+attribute.integrity.variety.Hardware tampering,bool
+attribute.integrity.variety.Log tampering,bool
+attribute.integrity.variety.Misrepresentation,bool
+attribute.integrity.variety.Modify configuration,bool
+attribute.integrity.variety.Modify data,bool
+attribute.integrity.variety.Modify privileges,bool
+attribute.integrity.variety.Other,bool
+attribute.integrity.variety.Repurpose,bool
+attribute.integrity.variety.Software installation,bool
+attribute.integrity.variety.Unknown,bool
+attribute.unknown.notes,object
+attribute.unknown.result,object
+campaign_id,object
+confidence.High,bool
+confidence.Low,bool
+confidence.Medium,bool
+confidence.None,bool
+control_failure,object
+corrective_action,float64
+cost_corrective_action.Difficult and expensive,bool
+cost_corrective_action.Simple and cheap,bool
+cost_corrective_action.Something in-between,bool
+cost_corrective_action.Unknown,bool
+discovery_method.external.variety.Actor disclosure,bool
+discovery_method.external.variety.Audit,bool
+discovery_method.external.variety.Customer,bool
+discovery_method.external.variety.Emergency response team,bool
+discovery_method.external.variety.Found documents,bool
+discovery_method.external.variety.Fraud detection,bool
+discovery_method.external.variety.Incident response,bool
+discovery_method.external.variety.Law enforcement,bool
+discovery_method.external.variety.Other,bool
+discovery_method.external.variety.Security researcher,bool
+discovery_method.external.variety.Suspicious traffic,bool
+discovery_method.external.variety.Unknown,bool
+discovery_method.external.variety.Unrelated 3rd party,bool
+discovery_method.internal.variety.Antivirus,bool
+discovery_method.internal.variety.Break in discovered,bool
+discovery_method.internal.variety.Data loss prevention,bool
+discovery_method.internal.variety.Financial audit,bool
+discovery_method.internal.variety.Fraud detection,bool
+discovery_method.internal.variety.Hids,bool
+discovery_method.internal.variety.Incident response,bool
+discovery_method.internal.variety.Infrastructure monitoring,bool
+discovery_method.internal.variety.It review,bool
+discovery_method.internal.variety.Log review,bool
+discovery_method.internal.variety.Nids,bool
+discovery_method.internal.variety.Offboarding,bool
+discovery_method.internal.variety.Other,bool
+discovery_method.internal.variety.Reported by employee,bool
+discovery_method.internal.variety.Security alarm,bool
+discovery_method.internal.variety.Unknown,bool
+discovery_method.other,bool
+discovery_method.partner.variety.Antivirus,bool
+discovery_method.partner.variety.Audit,bool
+discovery_method.partner.variety.Incident response,bool
+discovery_method.partner.variety.Monitoring service,bool
+discovery_method.partner.variety.Other,bool
+discovery_method.partner.variety.Unknown,bool
+discovery_method.unknown,bool
+discovery_notes,object
+impact.iso_currency_code.AED,bool
+impact.iso_currency_code.AFN,bool
+impact.iso_currency_code.ALL,bool
+impact.iso_currency_code.AMD,bool
+impact.iso_currency_code.ANG,bool
+impact.iso_currency_code.AOA,bool
+impact.iso_currency_code.ARS,bool
+impact.iso_currency_code.AUD,bool
+impact.iso_currency_code.AWG,bool
+impact.iso_currency_code.AZN,bool
+impact.iso_currency_code.BAM,bool
+impact.iso_currency_code.BBD,bool
+impact.iso_currency_code.BCH,bool
+impact.iso_currency_code.BDT,bool
+impact.iso_currency_code.BGN,bool
+impact.iso_currency_code.BHD,bool
+impact.iso_currency_code.BIF,bool
+impact.iso_currency_code.BMD,bool
+impact.iso_currency_code.BND,bool
+impact.iso_currency_code.BOB,bool
+impact.iso_currency_code.BRL,bool
+impact.iso_currency_code.BSD,bool
+impact.iso_currency_code.BTN,bool
+impact.iso_currency_code.BWP,bool
+impact.iso_currency_code.BYR,bool
+impact.iso_currency_code.BZD,bool
+impact.iso_currency_code.CAD,bool
+impact.iso_currency_code.CDF,bool
+impact.iso_currency_code.CHF,bool
+impact.iso_currency_code.CLP,bool
+impact.iso_currency_code.CNY,bool
+impact.iso_currency_code.COP,bool
+impact.iso_currency_code.CRC,bool
+impact.iso_currency_code.CUC,bool
+impact.iso_currency_code.CUP,bool
+impact.iso_currency_code.CVE,bool
+impact.iso_currency_code.CZK,bool
+impact.iso_currency_code.DJF,bool
+impact.iso_currency_code.DKK,bool
+impact.iso_currency_code.DOP,bool
+impact.iso_currency_code.DZD,bool
+impact.iso_currency_code.EGP,bool
+impact.iso_currency_code.ERN,bool
+impact.iso_currency_code.ETB,bool
+impact.iso_currency_code.Ether,bool
+impact.iso_currency_code.EUR,bool
+impact.iso_currency_code.FJD,bool
+impact.iso_currency_code.FKP,bool
+impact.iso_currency_code.GBP,bool
+impact.iso_currency_code.GEL,bool
+impact.iso_currency_code.GGP,bool
+impact.iso_currency_code.GHS,bool
+impact.iso_currency_code.GIP,bool
+impact.iso_currency_code.GMD,bool
+impact.iso_currency_code.GNF,bool
+impact.iso_currency_code.GTQ,bool
+impact.iso_currency_code.GYD,bool
+impact.iso_currency_code.HKD,bool
+impact.iso_currency_code.HNL,bool
+impact.iso_currency_code.HRK,bool
+impact.iso_currency_code.HTG,bool
+impact.iso_currency_code.HUF,bool
+impact.iso_currency_code.IDR,bool
+impact.iso_currency_code.ILS,bool
+impact.iso_currency_code.IMP,bool
+impact.iso_currency_code.INR,bool
+impact.iso_currency_code.IQD,bool
+impact.iso_currency_code.IRR,bool
+impact.iso_currency_code.ISK,bool
+impact.iso_currency_code.JEP,bool
+impact.iso_currency_code.JMD,bool
+impact.iso_currency_code.JOD,bool
+impact.iso_currency_code.JPY,bool
+impact.iso_currency_code.KES,bool
+impact.iso_currency_code.KGS,bool
+impact.iso_currency_code.KHR,bool
+impact.iso_currency_code.KMF,bool
+impact.iso_currency_code.KPW,bool
+impact.iso_currency_code.KRW,bool
+impact.iso_currency_code.KWD,bool
+impact.iso_currency_code.KYD,bool
+impact.iso_currency_code.KZT,bool
+impact.iso_currency_code.LAK,bool
+impact.iso_currency_code.LBP,bool
+impact.iso_currency_code.Litecoin,bool
+impact.iso_currency_code.LKR,bool
+impact.iso_currency_code.LRD,bool
+impact.iso_currency_code.LSL,bool
+impact.iso_currency_code.LTL,bool
+impact.iso_currency_code.LVL,bool
+impact.iso_currency_code.LYD,bool
+impact.iso_currency_code.MAD,bool
+impact.iso_currency_code.MDL,bool
+impact.iso_currency_code.MGA,bool
+impact.iso_currency_code.MKD,bool
+impact.iso_currency_code.MMK,bool
+impact.iso_currency_code.MNT,bool
+impact.iso_currency_code.MOP,bool
+impact.iso_currency_code.MRO,bool
+impact.iso_currency_code.MUR,bool
+impact.iso_currency_code.MVR,bool
+impact.iso_currency_code.MWK,bool
+impact.iso_currency_code.MXN,bool
+impact.iso_currency_code.MYR,bool
+impact.iso_currency_code.MZN,bool
+impact.iso_currency_code.NAD,bool
+impact.iso_currency_code.NGN,bool
+impact.iso_currency_code.NIO,bool
+impact.iso_currency_code.NOK,bool
+impact.iso_currency_code.NPR,bool
+impact.iso_currency_code.NZD,bool
+impact.iso_currency_code.OMR,bool
+impact.iso_currency_code.PAB,bool
+impact.iso_currency_code.PEN,bool
+impact.iso_currency_code.PGK,bool
+impact.iso_currency_code.PHP,bool
+impact.iso_currency_code.PKR,bool
+impact.iso_currency_code.PLN,bool
+impact.iso_currency_code.PYG,bool
+impact.iso_currency_code.QAR,bool
+impact.iso_currency_code.RON,bool
+impact.iso_currency_code.RSD,bool
+impact.iso_currency_code.RUB,bool
+impact.iso_currency_code.RWF,bool
+impact.iso_currency_code.SAR,bool
+impact.iso_currency_code.SBD,bool
+impact.iso_currency_code.SCR,bool
+impact.iso_currency_code.SDG,bool
+impact.iso_currency_code.SEK,bool
+impact.iso_currency_code.SGD,bool
+impact.iso_currency_code.SHP,bool
+impact.iso_currency_code.SLL,bool
+impact.iso_currency_code.SOS,bool
+impact.iso_currency_code.SPL,bool
+impact.iso_currency_code.SRD,bool
+impact.iso_currency_code.STD,bool
+impact.iso_currency_code.SVC,bool
+impact.iso_currency_code.SYP,bool
+impact.iso_currency_code.SZL,bool
+impact.iso_currency_code.THB,bool
+impact.iso_currency_code.TJS,bool
+impact.iso_currency_code.TMT,bool
+impact.iso_currency_code.TND,bool
+impact.iso_currency_code.TOP,bool
+impact.iso_currency_code.TRY,bool
+impact.iso_currency_code.TTD,bool
+impact.iso_currency_code.TVD,bool
+impact.iso_currency_code.TWD,bool
+impact.iso_currency_code.TZS,bool
+impact.iso_currency_code.UAH,bool
+impact.iso_currency_code.UGX,bool
+impact.iso_currency_code.USD,bool
+impact.iso_currency_code.UYU,bool
+impact.iso_currency_code.UZS,bool
+impact.iso_currency_code.VEF,bool
+impact.iso_currency_code.VND,bool
+impact.iso_currency_code.VUV,bool
+impact.iso_currency_code.WST,bool
+impact.iso_currency_code.XAF,bool
+impact.iso_currency_code.XBT,bool
+impact.iso_currency_code.XCD,bool
+impact.iso_currency_code.XDR,bool
+impact.iso_currency_code.XMR,bool
+impact.iso_currency_code.XOF,bool
+impact.iso_currency_code.XPF,bool
+impact.iso_currency_code.YER,bool
+impact.iso_currency_code.ZAR,bool
+impact.iso_currency_code.ZEC,bool
+impact.iso_currency_code.ZMK,bool
+impact.iso_currency_code.ZWD,bool
+impact.loss.amount,float64
+impact.loss.max_amount,float64
+impact.loss.min_amount,float64
+impact.loss.rating.Major,bool
+impact.loss.rating.Minor,bool
+impact.loss.rating.Moderate,bool
+impact.loss.rating.None,bool
+impact.loss.rating.Unknown,bool
+impact.loss.variety.Asset and fraud,bool
+impact.loss.variety.Brand damage,bool
+impact.loss.variety.Business disruption,bool
+impact.loss.variety.Competitive advantage,bool
+impact.loss.variety.Legal and regulatory,bool
+impact.loss.variety.Operating costs,bool
+impact.loss.variety.Other,bool
+impact.loss.variety.Response and recovery,bool
+impact.notes,object
+impact.overall_amount,float64
+impact.overall_max_amount,float64
+impact.overall_min_amount,float64
+impact.overall_rating.Catastrophic,bool
+impact.overall_rating.Damaging,bool
+impact.overall_rating.Distracting,bool
+impact.overall_rating.Insignificant,bool
+impact.overall_rating.Painful,bool
+impact.overall_rating.Unknown,bool
+incident_id,object
+notes,object
+plus.analysis_status,object
+plus.analyst,object
+plus.analyst_notes,object
+plus.asset_os,object
+plus.asset.total,object
+plus.attack_difficulty_initial,object
+plus.attack_difficulty_legacy,object
+plus.attack_difficulty_subsequent,object
+plus.attribute.confidentiality.credit_monitoring,object
+plus.attribute.confidentiality.credit_monitoring_years,float64
+plus.attribute.confidentiality.data_abuse,object
+plus.attribute.confidentiality.partner_data,object
+plus.attribute.confidentiality.partner_number,float64
+plus.control_inadequacies_legacy,float64
+plus.created,object
+plus.dbir_year,float64
+plus.github,object
+plus.investigator,object
+plus.master_id,object
+plus.modified,object
+plus.pci.compliance_status,float64
+plus.pci.merchant_level,float64
+plus.pci.notes,float64
+plus.pci.requirements.req_1.assessed,float64
+plus.pci.requirements.req_1.breach_cause,float64
+plus.pci.requirements.req_1.breach_contribute,float64
+plus.pci.requirements.req_1.in_place,object
+plus.pci.requirements.req_1.notes,float64
+plus.pci.requirements.req_10.assessed,float64
+plus.pci.requirements.req_10.breach_cause,float64
+plus.pci.requirements.req_10.breach_contribute,float64
+plus.pci.requirements.req_10.in_place,object
+plus.pci.requirements.req_10.notes,float64
+plus.pci.requirements.req_11.assessed,float64
+plus.pci.requirements.req_11.breach_cause,float64
+plus.pci.requirements.req_11.breach_contribute,float64
+plus.pci.requirements.req_11.in_place,object
+plus.pci.requirements.req_11.notes,float64
+plus.pci.requirements.req_12.assessed,float64
+plus.pci.requirements.req_12.breach_cause,float64
+plus.pci.requirements.req_12.breach_contribute,float64
+plus.pci.requirements.req_12.in_place,object
+plus.pci.requirements.req_12.notes,float64
+plus.pci.requirements.req_2.assessed,float64
+plus.pci.requirements.req_2.breach_cause,float64
+plus.pci.requirements.req_2.breach_contribute,float64
+plus.pci.requirements.req_2.in_place,object
+plus.pci.requirements.req_2.notes,float64
+plus.pci.requirements.req_3.assessed,float64
+plus.pci.requirements.req_3.breach_cause,float64
+plus.pci.requirements.req_3.breach_contribute,float64
+plus.pci.requirements.req_3.in_place,object
+plus.pci.requirements.req_3.notes,float64
+plus.pci.requirements.req_4.assessed,float64
+plus.pci.requirements.req_4.breach_cause,float64
+plus.pci.requirements.req_4.breach_contribute,float64
+plus.pci.requirements.req_4.in_place,object
+plus.pci.requirements.req_4.notes,float64
+plus.pci.requirements.req_5.assessed,float64
+plus.pci.requirements.req_5.breach_cause,float64
+plus.pci.requirements.req_5.breach_contribute,float64
+plus.pci.requirements.req_5.in_place,object
+plus.pci.requirements.req_5.notes,float64
+plus.pci.requirements.req_6.assessed,float64
+plus.pci.requirements.req_6.breach_cause,float64
+plus.pci.requirements.req_6.breach_contribute,float64
+plus.pci.requirements.req_6.in_place,object
+plus.pci.requirements.req_6.notes,float64
+plus.pci.requirements.req_7.assessed,float64
+plus.pci.requirements.req_7.breach_cause,float64
+plus.pci.requirements.req_7.breach_contribute,float64
+plus.pci.requirements.req_7.in_place,object
+plus.pci.requirements.req_7.notes,float64
+plus.pci.requirements.req_8.assessed,float64
+plus.pci.requirements.req_8.breach_cause,float64
+plus.pci.requirements.req_8.breach_contribute,float64
+plus.pci.requirements.req_8.in_place,object
+plus.pci.requirements.req_8.notes,float64
+plus.pci.requirements.req_9.assessed,float64
+plus.pci.requirements.req_9.breach_cause,float64
+plus.pci.requirements.req_9.breach_contribute,float64
+plus.pci.requirements.req_9.in_place,object
+plus.pci.requirements.req_9.notes,float64
+plus.pci.status_determined,float64
+plus.row_number,float64
+plus.security_maturity,object
+plus.sub_source,object
+plus.timeline.notification.day,float64
+plus.timeline.notification.month,float64
+plus.timeline.notification.year,float64
+plus.unfollowed_policies,float64
+plus.unknown_unknowns,object
+reference,object
+schema_name,object
+schema_version,object
+security_incident.Confirmed,bool
+security_incident.False positive,bool
+security_incident.Near miss,bool
+security_incident.Suspected,bool
+source_id,object
+summary,object
+targeted.NA,bool
+targeted.Opportunistic,bool
+targeted.Targeted,bool
+targeted.Unknown,bool
+timeline.compromise.unit.Days,bool
+timeline.compromise.unit.Hours,bool
+timeline.compromise.unit.Minutes,bool
+timeline.compromise.unit.Months,bool
+timeline.compromise.unit.NA,bool
+timeline.compromise.unit.Never,bool
+timeline.compromise.unit.Seconds,bool
+timeline.compromise.unit.Unknown,bool
+timeline.compromise.unit.Weeks,bool
+timeline.compromise.unit.Years,bool
+timeline.compromise.value,float64
+timeline.containment.unit.Days,bool
+timeline.containment.unit.Hours,bool
+timeline.containment.unit.Minutes,bool
+timeline.containment.unit.Months,bool
+timeline.containment.unit.NA,bool
+timeline.containment.unit.Never,bool
+timeline.containment.unit.Seconds,bool
+timeline.containment.unit.Unknown,bool
+timeline.containment.unit.Weeks,bool
+timeline.containment.unit.Years,bool
+timeline.containment.value,float64
+timeline.discovery.unit.Days,bool
+timeline.discovery.unit.Hours,bool
+timeline.discovery.unit.Minutes,bool
+timeline.discovery.unit.Months,bool
+timeline.discovery.unit.NA,bool
+timeline.discovery.unit.Never,bool
+timeline.discovery.unit.Seconds,bool
+timeline.discovery.unit.Unknown,bool
+timeline.discovery.unit.Weeks,bool
+timeline.discovery.unit.Years,bool
+timeline.discovery.value,float64
+timeline.exfiltration.unit.Days,bool
+timeline.exfiltration.unit.Hours,bool
+timeline.exfiltration.unit.Minutes,bool
+timeline.exfiltration.unit.Months,bool
+timeline.exfiltration.unit.NA,bool
+timeline.exfiltration.unit.Never,bool
+timeline.exfiltration.unit.Seconds,bool
+timeline.exfiltration.unit.Unknown,bool
+timeline.exfiltration.unit.Weeks,bool
+timeline.exfiltration.unit.Years,bool
+timeline.exfiltration.value,float64
+timeline.incident.day,float64
+timeline.incident.month,float64
+timeline.incident.time,object
+timeline.incident.year,int64
+value_chain.cash-out.notes,object
+value_chain.cash-out.variety.Cryptocurrency,bool
+value_chain.cash-out.variety.Direct,bool
+value_chain.cash-out.variety.Fraud,bool
+value_chain.cash-out.variety.Hijacked rewards,bool
+value_chain.cash-out.variety.NA,bool
+value_chain.cash-out.variety.Other,bool
+value_chain.cash-out.variety.Provide service,bool
+value_chain.cash-out.variety.Purchase stolen goods,bool
+value_chain.cash-out.variety.Sell stolen goods,bool
+value_chain.cash-out.variety.Unknown,bool
+value_chain.development.notes,object
+value_chain.development.variety.Bot,bool
+value_chain.development.variety.Email,bool
+value_chain.development.variety.Exploit,bool
+value_chain.development.variety.Exploit Kits,bool
+value_chain.development.variety.NA,bool
+value_chain.development.variety.Other,bool
+value_chain.development.variety.Payload,bool
+value_chain.development.variety.Persona,bool
+value_chain.development.variety.Physical,bool
+value_chain.development.variety.Ransomware,bool
+value_chain.development.variety.Trojan,bool
+value_chain.development.variety.Unknown,bool
+value_chain.development.variety.Website,bool
+value_chain.distribution.notes,object
+value_chain.distribution.variety.Botnet,bool
+value_chain.distribution.variety.Compromised server,bool
+value_chain.distribution.variety.Direct,bool
+value_chain.distribution.variety.Email,bool
+value_chain.distribution.variety.Loader,bool
+value_chain.distribution.variety.NA,bool
+value_chain.distribution.variety.Other,bool
+value_chain.distribution.variety.Partner,bool
+value_chain.distribution.variety.Phone,bool
+value_chain.distribution.variety.Physical,bool
+value_chain.distribution.variety.Unknown,bool
+value_chain.distribution.variety.Website,bool
+value_chain.money laundering.notes,float64
+value_chain.money laundering.variety.Bank,bool
+value_chain.money laundering.variety.Company,bool
+value_chain.money laundering.variety.Cryptocurrency tumbling,bool
+value_chain.money laundering.variety.Employment,bool
+value_chain.money laundering.variety.Gambling,bool
+value_chain.money laundering.variety.NA,bool
+value_chain.money laundering.variety.Other,bool
+value_chain.money laundering.variety.Physical,bool
+value_chain.money laundering.variety.Provide service,bool
+value_chain.money laundering.variety.Re-shipping,bool
+value_chain.money laundering.variety.Sell stolen goods,bool
+value_chain.money laundering.variety.Smurfing,bool
+value_chain.money laundering.variety.Unknown,bool
+value_chain.NA,bool
+value_chain.non-distribution services.notes,object
+value_chain.non-distribution services.variety.C2,bool
+value_chain.non-distribution services.variety.Counter AV,bool
+value_chain.non-distribution services.variety.DNS,bool
+value_chain.non-distribution services.variety.Escrow,bool
+value_chain.non-distribution services.variety.Hashcracking,bool
+value_chain.non-distribution services.variety.Marketplace,bool
+value_chain.non-distribution services.variety.NA,bool
+value_chain.non-distribution services.variety.Other,bool
+value_chain.non-distribution services.variety.Proxy,bool
+value_chain.non-distribution services.variety.Unknown,bool
+value_chain.non-distribution services.variety.VPN,bool
+value_chain.targeting.notes,object
+value_chain.targeting.variety.Default credentials,bool
+value_chain.targeting.variety.Email addresses,bool
+value_chain.targeting.variety.Lost or stolen credentials,bool
+value_chain.targeting.variety.Misconfigurations,bool
+value_chain.targeting.variety.NA,bool
+value_chain.targeting.variety.Organizational Information,bool
+value_chain.targeting.variety.Other,bool
+value_chain.targeting.variety.Partner,bool
+value_chain.targeting.variety.Personal Information,bool
+value_chain.targeting.variety.Physical,bool
+value_chain.targeting.variety.Unknown,bool
+value_chain.targeting.variety.Vulnerabilities,bool
+value_chain.targeting.variety.Weaknesses,bool
+victim.country.AD,bool
+victim.country.AE,bool
+victim.country.AF,bool
+victim.country.AG,bool
+victim.country.AI,bool
+victim.country.AL,bool
+victim.country.AM,bool
+victim.country.AO,bool
+victim.country.AQ,bool
+victim.country.AR,bool
+victim.country.AS,bool
+victim.country.AT,bool
+victim.country.AU,bool
+victim.country.AW,bool
+victim.country.AX,bool
+victim.country.AZ,bool
+victim.country.BA,bool
+victim.country.BB,bool
+victim.country.BD,bool
+victim.country.BE,bool
+victim.country.BF,bool
+victim.country.BG,bool
+victim.country.BH,bool
+victim.country.BI,bool
+victim.country.BJ,bool
+victim.country.BL,bool
+victim.country.BM,bool
+victim.country.BN,bool
+victim.country.BO,bool
+victim.country.BQ,bool
+victim.country.BR,bool
+victim.country.BS,bool
+victim.country.BT,bool
+victim.country.BV,bool
+victim.country.BW,bool
+victim.country.BY,bool
+victim.country.BZ,bool
+victim.country.CA,bool
+victim.country.CC,bool
+victim.country.CD,bool
+victim.country.CF,bool
+victim.country.CG,bool
+victim.country.CH,bool
+victim.country.CI,bool
+victim.country.CK,bool
+victim.country.CL,bool
+victim.country.CM,bool
+victim.country.CN,bool
+victim.country.CO,bool
+victim.country.CR,bool
+victim.country.CU,bool
+victim.country.CV,bool
+victim.country.CW,bool
+victim.country.CX,bool
+victim.country.CY,bool
+victim.country.CZ,bool
+victim.country.DE,bool
+victim.country.DJ,bool
+victim.country.DK,bool
+victim.country.DM,bool
+victim.country.DO,bool
+victim.country.DZ,bool
+victim.country.EC,bool
+victim.country.EE,bool
+victim.country.EG,bool
+victim.country.EH,bool
+victim.country.ER,bool
+victim.country.ES,bool
+victim.country.ET,bool
+victim.country.FI,bool
+victim.country.FJ,bool
+victim.country.FK,bool
+victim.country.FM,bool
+victim.country.FO,bool
+victim.country.FR,bool
+victim.country.GA,bool
+victim.country.GB,bool
+victim.country.GD,bool
+victim.country.GE,bool
+victim.country.GF,bool
+victim.country.GG,bool
+victim.country.GH,bool
+victim.country.GI,bool
+victim.country.GL,bool
+victim.country.GM,bool
+victim.country.GN,bool
+victim.country.GP,bool
+victim.country.GQ,bool
+victim.country.GR,bool
+victim.country.GS,bool
+victim.country.GT,bool
+victim.country.GU,bool
+victim.country.GW,bool
+victim.country.GY,bool
+victim.country.HK,bool
+victim.country.HM,bool
+victim.country.HN,bool
+victim.country.HR,bool
+victim.country.HT,bool
+victim.country.HU,bool
+victim.country.ID,bool
+victim.country.IE,bool
+victim.country.IL,bool
+victim.country.IM,bool
+victim.country.IN,bool
+victim.country.IO,bool
+victim.country.IQ,bool
+victim.country.IR,bool
+victim.country.IS,bool
+victim.country.IT,bool
+victim.country.JE,bool
+victim.country.JM,bool
+victim.country.JO,bool
+victim.country.JP,bool
+victim.country.KE,bool
+victim.country.KG,bool
+victim.country.KH,bool
+victim.country.KI,bool
+victim.country.KM,bool
+victim.country.KN,bool
+victim.country.KP,bool
+victim.country.KR,bool
+victim.country.KW,bool
+victim.country.KY,bool
+victim.country.KZ,bool
+victim.country.LA,bool
+victim.country.LB,bool
+victim.country.LC,bool
+victim.country.LI,bool
+victim.country.LK,bool
+victim.country.LR,bool
+victim.country.LS,bool
+victim.country.LT,bool
+victim.country.LU,bool
+victim.country.LV,bool
+victim.country.LY,bool
+victim.country.MA,bool
+victim.country.MC,bool
+victim.country.MD,bool
+victim.country.ME,bool
+victim.country.MF,bool
+victim.country.MG,bool
+victim.country.MH,bool
+victim.country.MK,bool
+victim.country.ML,bool
+victim.country.MM,bool
+victim.country.MN,bool
+victim.country.MO,bool
+victim.country.MP,bool
+victim.country.MQ,bool
+victim.country.MR,bool
+victim.country.MS,bool
+victim.country.MT,bool
+victim.country.MU,bool
+victim.country.MV,bool
+victim.country.MW,bool
+victim.country.MX,bool
+victim.country.MY,bool
+victim.country.MZ,bool
+victim.country.NA,bool
+victim.country.NC,bool
+victim.country.NE,bool
+victim.country.NF,bool
+victim.country.NG,bool
+victim.country.NI,bool
+victim.country.NL,bool
+victim.country.NO,bool
+victim.country.NP,bool
+victim.country.NR,bool
+victim.country.NU,bool
+victim.country.NZ,bool
+victim.country.OM,bool
+victim.country.Other,bool
+victim.country.PA,bool
+victim.country.PE,bool
+victim.country.PF,bool
+victim.country.PG,bool
+victim.country.PH,bool
+victim.country.PK,bool
+victim.country.PL,bool
+victim.country.PM,bool
+victim.country.PN,bool
+victim.country.PR,bool
+victim.country.PS,bool
+victim.country.PT,bool
+victim.country.PW,bool
+victim.country.PY,bool
+victim.country.QA,bool
+victim.country.RE,bool
+victim.country.RO,bool
+victim.country.RS,bool
+victim.country.RU,bool
+victim.country.RW,bool
+victim.country.SA,bool
+victim.country.SB,bool
+victim.country.SC,bool
+victim.country.SD,bool
+victim.country.SE,bool
+victim.country.SG,bool
+victim.country.SH,bool
+victim.country.SI,bool
+victim.country.SJ,bool
+victim.country.SK,bool
+victim.country.SL,bool
+victim.country.SM,bool
+victim.country.SN,bool
+victim.country.SO,bool
+victim.country.SR,bool
+victim.country.SS,bool
+victim.country.ST,bool
+victim.country.SV,bool
+victim.country.SX,bool
+victim.country.SY,bool
+victim.country.SZ,bool
+victim.country.TC,bool
+victim.country.TD,bool
+victim.country.TF,bool
+victim.country.TG,bool
+victim.country.TH,bool
+victim.country.TJ,bool
+victim.country.TK,bool
+victim.country.TL,bool
+victim.country.TM,bool
+victim.country.TN,bool
+victim.country.TO,bool
+victim.country.TR,bool
+victim.country.TT,bool
+victim.country.TV,bool
+victim.country.TW,bool
+victim.country.TZ,bool
+victim.country.UA,bool
+victim.country.UG,bool
+victim.country.UM,bool
+victim.country.Unknown,bool
+victim.country.US,bool
+victim.country.UY,bool
+victim.country.UZ,bool
+victim.country.VA,bool
+victim.country.VC,bool
+victim.country.VE,bool
+victim.country.VG,bool
+victim.country.VI,bool
+victim.country.VN,bool
+victim.country.VU,bool
+victim.country.WF,bool
+victim.country.WS,bool
+victim.country.XK,bool
+victim.country.YE,bool
+victim.country.YT,bool
+victim.country.ZA,bool
+victim.country.ZM,bool
+victim.country.ZW,bool
+victim.employee_count.1 to 10,bool
+victim.employee_count.10001 to 25000,bool
+victim.employee_count.1001 to 10000,bool
+victim.employee_count.101 to 1000,bool
+victim.employee_count.11 to 100,bool
+victim.employee_count.25001 to 50000,bool
+victim.employee_count.50001 to 100000,bool
+victim.employee_count.Large,bool
+victim.employee_count.Over 100000,bool
+victim.employee_count.Small,bool
+victim.employee_count.Unknown,bool
+victim.government.Federal,bool
+victim.government.Local,bool
+victim.government.NA,bool
+victim.government.Other,bool
+victim.government.Regional,bool
+victim.government.Unknown,bool
+victim.industry,object
+victim.locations_affected,float64
+victim.notes,object
+victim.region,object
+victim.revenue.amount,float64
+victim.revenue.iso_currency_code.AED,bool
+victim.revenue.iso_currency_code.AFN,bool
+victim.revenue.iso_currency_code.ALL,bool
+victim.revenue.iso_currency_code.AMD,bool
+victim.revenue.iso_currency_code.ANG,bool
+victim.revenue.iso_currency_code.AOA,bool
+victim.revenue.iso_currency_code.ARS,bool
+victim.revenue.iso_currency_code.AUD,bool
+victim.revenue.iso_currency_code.AWG,bool
+victim.revenue.iso_currency_code.AZN,bool
+victim.revenue.iso_currency_code.BAM,bool
+victim.revenue.iso_currency_code.BBD,bool
+victim.revenue.iso_currency_code.BCH,bool
+victim.revenue.iso_currency_code.BDT,bool
+victim.revenue.iso_currency_code.BGN,bool
+victim.revenue.iso_currency_code.BHD,bool
+victim.revenue.iso_currency_code.BIF,bool
+victim.revenue.iso_currency_code.BMD,bool
+victim.revenue.iso_currency_code.BND,bool
+victim.revenue.iso_currency_code.BOB,bool
+victim.revenue.iso_currency_code.BRL,bool
+victim.revenue.iso_currency_code.BSD,bool
+victim.revenue.iso_currency_code.BTN,bool
+victim.revenue.iso_currency_code.BWP,bool
+victim.revenue.iso_currency_code.BYR,bool
+victim.revenue.iso_currency_code.BZD,bool
+victim.revenue.iso_currency_code.CAD,bool
+victim.revenue.iso_currency_code.CDF,bool
+victim.revenue.iso_currency_code.CHF,bool
+victim.revenue.iso_currency_code.CLP,bool
+victim.revenue.iso_currency_code.CNY,bool
+victim.revenue.iso_currency_code.COP,bool
+victim.revenue.iso_currency_code.CRC,bool
+victim.revenue.iso_currency_code.CUC,bool
+victim.revenue.iso_currency_code.CUP,bool
+victim.revenue.iso_currency_code.CVE,bool
+victim.revenue.iso_currency_code.CZK,bool
+victim.revenue.iso_currency_code.DJF,bool
+victim.revenue.iso_currency_code.DKK,bool
+victim.revenue.iso_currency_code.DOP,bool
+victim.revenue.iso_currency_code.DZD,bool
+victim.revenue.iso_currency_code.EGP,bool
+victim.revenue.iso_currency_code.ERN,bool
+victim.revenue.iso_currency_code.ETB,bool
+victim.revenue.iso_currency_code.Ether,bool
+victim.revenue.iso_currency_code.EUR,bool
+victim.revenue.iso_currency_code.FJD,bool
+victim.revenue.iso_currency_code.FKP,bool
+victim.revenue.iso_currency_code.GBP,bool
+victim.revenue.iso_currency_code.GEL,bool
+victim.revenue.iso_currency_code.GGP,bool
+victim.revenue.iso_currency_code.GHS,bool
+victim.revenue.iso_currency_code.GIP,bool
+victim.revenue.iso_currency_code.GMD,bool
+victim.revenue.iso_currency_code.GNF,bool
+victim.revenue.iso_currency_code.GTQ,bool
+victim.revenue.iso_currency_code.GYD,bool
+victim.revenue.iso_currency_code.HKD,bool
+victim.revenue.iso_currency_code.HNL,bool
+victim.revenue.iso_currency_code.HRK,bool
+victim.revenue.iso_currency_code.HTG,bool
+victim.revenue.iso_currency_code.HUF,bool
+victim.revenue.iso_currency_code.IDR,bool
+victim.revenue.iso_currency_code.ILS,bool
+victim.revenue.iso_currency_code.IMP,bool
+victim.revenue.iso_currency_code.INR,bool
+victim.revenue.iso_currency_code.IQD,bool
+victim.revenue.iso_currency_code.IRR,bool
+victim.revenue.iso_currency_code.ISK,bool
+victim.revenue.iso_currency_code.JEP,bool
+victim.revenue.iso_currency_code.JMD,bool
+victim.revenue.iso_currency_code.JOD,bool
+victim.revenue.iso_currency_code.JPY,bool
+victim.revenue.iso_currency_code.KES,bool
+victim.revenue.iso_currency_code.KGS,bool
+victim.revenue.iso_currency_code.KHR,bool
+victim.revenue.iso_currency_code.KMF,bool
+victim.revenue.iso_currency_code.KPW,bool
+victim.revenue.iso_currency_code.KRW,bool
+victim.revenue.iso_currency_code.KWD,bool
+victim.revenue.iso_currency_code.KYD,bool
+victim.revenue.iso_currency_code.KZT,bool
+victim.revenue.iso_currency_code.LAK,bool
+victim.revenue.iso_currency_code.LBP,bool
+victim.revenue.iso_currency_code.Litecoin,bool
+victim.revenue.iso_currency_code.LKR,bool
+victim.revenue.iso_currency_code.LRD,bool
+victim.revenue.iso_currency_code.LSL,bool
+victim.revenue.iso_currency_code.LTL,bool
+victim.revenue.iso_currency_code.LVL,bool
+victim.revenue.iso_currency_code.LYD,bool
+victim.revenue.iso_currency_code.MAD,bool
+victim.revenue.iso_currency_code.MDL,bool
+victim.revenue.iso_currency_code.MGA,bool
+victim.revenue.iso_currency_code.MKD,bool
+victim.revenue.iso_currency_code.MMK,bool
+victim.revenue.iso_currency_code.MNT,bool
+victim.revenue.iso_currency_code.MOP,bool
+victim.revenue.iso_currency_code.MRO,bool
+victim.revenue.iso_currency_code.MUR,bool
+victim.revenue.iso_currency_code.MVR,bool
+victim.revenue.iso_currency_code.MWK,bool
+victim.revenue.iso_currency_code.MXN,bool
+victim.revenue.iso_currency_code.MYR,bool
+victim.revenue.iso_currency_code.MZN,bool
+victim.revenue.iso_currency_code.NAD,bool
+victim.revenue.iso_currency_code.NGN,bool
+victim.revenue.iso_currency_code.NIO,bool
+victim.revenue.iso_currency_code.NOK,bool
+victim.revenue.iso_currency_code.NPR,bool
+victim.revenue.iso_currency_code.NZD,bool
+victim.revenue.iso_currency_code.OMR,bool
+victim.revenue.iso_currency_code.PAB,bool
+victim.revenue.iso_currency_code.PEN,bool
+victim.revenue.iso_currency_code.PGK,bool
+victim.revenue.iso_currency_code.PHP,bool
+victim.revenue.iso_currency_code.PKR,bool
+victim.revenue.iso_currency_code.PLN,bool
+victim.revenue.iso_currency_code.PYG,bool
+victim.revenue.iso_currency_code.QAR,bool
+victim.revenue.iso_currency_code.RON,bool
+victim.revenue.iso_currency_code.RSD,bool
+victim.revenue.iso_currency_code.RUB,bool
+victim.revenue.iso_currency_code.RWF,bool
+victim.revenue.iso_currency_code.SAR,bool
+victim.revenue.iso_currency_code.SBD,bool
+victim.revenue.iso_currency_code.SCR,bool
+victim.revenue.iso_currency_code.SDG,bool
+victim.revenue.iso_currency_code.SEK,bool
+victim.revenue.iso_currency_code.SGD,bool
+victim.revenue.iso_currency_code.SHP,bool
+victim.revenue.iso_currency_code.SLL,bool
+victim.revenue.iso_currency_code.SOS,bool
+victim.revenue.iso_currency_code.SPL,bool
+victim.revenue.iso_currency_code.SRD,bool
+victim.revenue.iso_currency_code.STD,bool
+victim.revenue.iso_currency_code.SVC,bool
+victim.revenue.iso_currency_code.SYP,bool
+victim.revenue.iso_currency_code.SZL,bool
+victim.revenue.iso_currency_code.THB,bool
+victim.revenue.iso_currency_code.TJS,bool
+victim.revenue.iso_currency_code.TMT,bool
+victim.revenue.iso_currency_code.TND,bool
+victim.revenue.iso_currency_code.TOP,bool
+victim.revenue.iso_currency_code.TRY,bool
+victim.revenue.iso_currency_code.TTD,bool
+victim.revenue.iso_currency_code.TVD,bool
+victim.revenue.iso_currency_code.TWD,bool
+victim.revenue.iso_currency_code.TZS,bool
+victim.revenue.iso_currency_code.UAH,bool
+victim.revenue.iso_currency_code.UGX,bool
+victim.revenue.iso_currency_code.USD,bool
+victim.revenue.iso_currency_code.UYU,bool
+victim.revenue.iso_currency_code.UZS,bool
+victim.revenue.iso_currency_code.VEF,bool
+victim.revenue.iso_currency_code.VND,bool
+victim.revenue.iso_currency_code.VUV,bool
+victim.revenue.iso_currency_code.WST,bool
+victim.revenue.iso_currency_code.XAF,bool
+victim.revenue.iso_currency_code.XBT,bool
+victim.revenue.iso_currency_code.XCD,bool
+victim.revenue.iso_currency_code.XDR,bool
+victim.revenue.iso_currency_code.XMR,bool
+victim.revenue.iso_currency_code.XOF,bool
+victim.revenue.iso_currency_code.XPF,bool
+victim.revenue.iso_currency_code.YER,bool
+victim.revenue.iso_currency_code.ZAR,bool
+victim.revenue.iso_currency_code.ZEC,bool
+victim.revenue.iso_currency_code.ZMK,bool
+victim.revenue.iso_currency_code.ZWD,bool
+victim.secondary.amount,float64
+victim.secondary.notes,object
+victim.secondary.victim_id,object
+victim.state,object
+victim.victim_id,object
+actor.External,bool
+actor.Internal,bool
+actor.Partner,bool
+actor.Unknown,bool
+action.Malware,bool
+action.Hacking,bool
+action.Social,bool
+action.Physical,bool
+action.Misuse,bool
+action.Error,bool
+action.Environmental,bool
+action.Unknown,bool
+asset.variety.Server,bool
+asset.variety.Network,bool
+asset.variety.User Dev,bool
+asset.variety.Media,bool
+asset.variety.Person,bool
+asset.variety.Kiosk/Term,bool
+asset.variety.Unknown,bool
+asset.variety.Embedded,bool
+attribute.Confidentiality,bool
+attribute.Integrity,bool
+attribute.Availability,bool
+discovery_method.External,bool
+discovery_method.Internal,bool
+discovery_method.Partner,bool
+discovery_method.Other,bool
+discovery_method.Unknown,bool
+value_chain.Development,bool
+value_chain.Non-distribution services,bool
+value_chain.Targeting,bool
+value_chain.Distribution,bool
+value_chain.Cash-out,bool
+value_chain.Money laundering,bool
+victim.orgsize.Small,bool
+victim.orgsize.Large,bool
+victim.orgsize.Unknown,bool
+victim.industry2,int64
+victim.industry2.00,bool
+victim.industry2.11,bool
+victim.industry2.21,bool
+victim.industry2.22,bool
+victim.industry2.23,bool
+victim.industry2.31,bool
+victim.industry2.32,bool
+victim.industry2.33,bool
+victim.industry2.42,bool
+victim.industry2.44,bool
+victim.industry2.45,bool
+victim.industry2.48,bool
+victim.industry2.49,bool
+victim.industry2.51,bool
+victim.industry2.52,bool
+victim.industry2.53,bool
+victim.industry2.54,bool
+victim.industry2.55,bool
+victim.industry2.56,bool
+victim.industry2.61,bool
+victim.industry2.62,bool
+victim.industry2.71,bool
+victim.industry2.72,bool
+victim.industry2.81,bool
+victim.industry2.92,bool
+victim.industry3,object
+victim.industry.name,object
+actor.partner.industry2,float64
+actor.partner.industry3,float64
+pattern.Privilege Misuse,bool
+pattern.Miscellaneous Errors,bool
+pattern.Lost and Stolen Assets,bool
+pattern.Basic Web Application Attacks,bool
+pattern.System Intrusion,bool
+pattern.Social Engineering,bool
+pattern.Denial of Service,bool
+pattern.Everything Else,bool
+actor.Multiple,bool
+Actor,object
+victim.industry2.31_33,bool
+victim.industry2.44_45,bool
+victim.industry2.48_49,bool
